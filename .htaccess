@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteRule ^paste/([0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z])$ /paste/$1/ [R]
+RewriteRule ^paste/([0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z])/$ paste/index.php?rkey=$1 
+RewriteRule ^paste/([0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z])$ /public/$2/ [R]
+RewriteRule ^paste/([0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z])/$ public/index.php?rkey=$2 
+
+#Order deny,allow
+#Deny from all
+#Allow from 24.242.80.149
+#Allow from 66.55.20.19
+#Allow from 121.242.139
+#Allow from 182.72.184.199
+#Allow from 208.87.56.2

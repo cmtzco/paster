@@ -1,0 +1,36 @@
+[21-Aug-2014 01:06:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'textarea' (T_STRING), expecting ',' or ';' in /home/big/public_html/assets/paste.php on line 32
+[21-Aug-2014 01:18:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/big/public_html/assets/paste.php:23) in /home/big/public_html/assets/paste.php on line 24
+[21-Aug-2014 02:10:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'mysqli_close' (T_STRING), expecting ',' or ';' in /home/big/public_html/assets/paste.php on line 25
+[21-Aug-2014 05:52:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/big/public_html/assets/paste.php on line 54
+[21-Aug-2014 05:52:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/big/public_html/assets/paste.php on line 54
+[21-Aug-2014 05:54:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$url2' (T_VARIABLE) in /home/big/public_html/assets/paste.php on line 56
+[21-Aug-2014 05:54:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/big/public_html/assets/paste.php on line 56
+[21-Aug-2014 05:55:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected '/' in /home/big/public_html/assets/paste.php on line 62
+[21-Aug-2014 06:09:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/big/public_html/assets/paste.php on line 17
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/big/public_html/assets/paste.php on line 2
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 11
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 12
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 13
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 14
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 15
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 16
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 22
+[11-Nov-2014 03:14:28 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 23
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/big/public_html/assets/paste.php on line 2
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 11
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 12
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 13
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 14
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 15
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 16
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 22
+[11-Nov-2014 03:14:34 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 23
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/big/public_html/assets/paste.php on line 2
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 11
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 12
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 13
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 14
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 15
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 16
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 22
+[15-Nov-2014 01:48:08 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/big/public_html/assets/paste.php on line 23
