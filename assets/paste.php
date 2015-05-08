@@ -36,34 +36,34 @@ mysqli_close($con);
         }
         .content {
             text-align:center;
-            color:#C8CDD7;
+            color:#595C58;
             width:relative;
              margin:95px;
         }
         body{
-            background-color:#303641;
+            background-color:#A4A9AD;
             font-family:'Raleway', sans-serif;
         }
         .urlcontent {
             padding:15px 5px;
             border:1px solid;
-            background-color:#373E4A;
+            background-color:#A4A9AD;
             width:relative;
             border-radius:1px;
         }
         a {
-        color:#C8CDD7;
+        color:#595C58;
         text-decoration:none;
         }
         header {
         padding:45px;
         font-size:35px;
         font-family:'Raleway', sans-serif;
-        background-color:#303641;
-        color:#C8CDD7;
+        background-color:#A4A9AD;
+        color:#595C58;
         }
         a:visited {
-        color:#C8CDD7;
+        color:#595C58;
         }
     </style>
 </head>

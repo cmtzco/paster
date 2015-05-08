@@ -72,7 +72,6 @@ date_default_timezone_set('America/Mexico_City');
             background-color:#78BE20;
             padding: 15px 20px;
             margin:5px;
-	    box-shadow: 2px 2px 1px;
         }
         body {
             background-color:#A4A9AD;

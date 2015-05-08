@@ -26,18 +26,18 @@ function curPageURL() {
         padding:45px;
         font-size:35px;
         font-family:'Raleway', sans-serif;
-        background-color:#303641;
-        color:#C8CDD7;
+        background-color:#A4A9AD;
+        color:#A4A9AD;
 
     }
     body {
-        background-color:#303641;
+        background-color:#A4A9AD;
         width:100%;
     }
     .pastedcontent {
         margin:0px auto;
-        background-color:#373E4A;
-        color:#C8CDD7;
+        background-color:#595C58;
+        color:#A4A9AD;
         border:1px;
     }
     .pasteddiv {
@@ -45,37 +45,45 @@ function curPageURL() {
     text-align:center;
     
     }
+    header > a {
+	color:#595C58;
+    }
+    header > a:visited {
+   	color:#595C58;
+    }
     a {
         text-decoration:none;
+	color:#A4A9AD;
         }
     a:visited {
-        color:#C8CDD7;
+        color:#A4A9AD;
         }
     .pasteagain {
     font-family:'Raleway', sans-serif;
-    color:#373E4A;
+    color:#A4A9AD;
     width:15%;
     padding:10px;
-    border:1px solid #C8CDD7;
-    background-color:#C8CDD7;
+    box-shadow:2px 2px 1px;
+    border:1px solid #78BE20;
+    background-color:#78BE20;
     text-align:center;
     margin:0 auto;
     font-size:25px;
     border-radius:3px;
     }
     .pasteagaintext {
-    color:#373E4A;
+    color:#595C58;
     }
     .pasteagaintext:visited {
-    color:#373E4A;
+    color:#595C58;
     }
     .pageurl {
     font-family:'Raleway', sans-serif;
-    color:#C8CDD7;
-    width:40%;
+    color:#A4A9AD;
+    width:45%;
     padding:10px;
     border:1px solid;
-    background-color:#373E4A;
+    background-color:#595C58;
     text-align:center;
     margin:0 auto;
     font-size:20px;
@@ -83,11 +91,11 @@ function curPageURL() {
     }
     .submitby {
     font-family:'Raleway', sans-serif;
-    color:#C8CDD7;
+    color:#A4A9AD;
     width:35%;
     padding:10px;
     border:1px solid;
-    background-color:#373E4A;
+    background-color:#595C58;
     text-align:center;
     margin:0 auto;
     font-size:20px;
