@@ -101,7 +101,10 @@ date_default_timezone_set('America/Mexico_City');
 </head>
 
 <body>
-<header><a href="http://drl.dev">DRLpaste</a></header>
+<?php 
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+	echo "<header><a href='" . $url . "'>DRLpaste</a></header>"; 
+?>
     <div class="mid content">
         <form action="assets/paste.php" method="POST">
             <textarea rows="25" cols="50" class="pastebox" name="pastetext" placeholder="Insert text here...."></textarea>

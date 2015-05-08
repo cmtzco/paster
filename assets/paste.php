@@ -70,11 +70,11 @@ mysqli_close($con);
 </head>
 <body>
 <header>
-<a href="http://drl.dev">Your URL is:</a>
+<?php echo "<a href='" . $url . "'>Your URL is:</a>"; ?>
 </header>
 <div class="mid content">
 <?php 
-$url1= "http://drl.dev/paste/"; 
+$url1= $url . "/paste/"; 
 $url2= $_POST['randomkey'];
 echo "Click on URL to view content";
 echo "<br>";

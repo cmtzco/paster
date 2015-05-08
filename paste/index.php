@@ -114,7 +114,9 @@ function curPageURL() {
 </head>
 
 <body>
-<header><a href="http://drl.dev">Your Paste:</a></header>
+<?php 
+echo "<header><a href='" . $url . "'>Your Paste:</a></header>";
+?>
 <div class="pageurl"><?php echo curPageURL();?></div> <br>
 
 <?php
@@ -142,8 +144,8 @@ while($row = mysqli_fetch_array($result)) {
   echo "</div>";
   echo "<br>";
 }
+
+
+echo "<div class='pasteagain'><a class='pasteagaintext' href='". $url . "'>Paste again</a></div>";
 ?>
-
-<div class="pasteagain"><a class="pasteagaintext" href="http://drl.dev">Paste again</a></div>
-
 </body>
