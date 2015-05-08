@@ -1,5 +1,6 @@
- <?php
-$con=mysqli_connect("localhost","drl_paster","pastepass","drl_paste");
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
+$con=mysqli_connect($host, $user, $password, $database);
 // Check connection
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
